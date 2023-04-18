@@ -8,6 +8,8 @@ Criei duas funções, uma para caso o usuário seja mulher e outra para caso o u
 Foi uma variavel = prompt, para obter a variável a partir da resposta solicitada.
 
 Após isso, criei uma condição (if e else), para de acordo com a resposta do usuário, fazer o calculo para mulher ou para homem.
+
+Me levando como referência (Levy, 165cm, 90kg, 23 anos e 1 para homem)
 ![image](https://user-images.githubusercontent.com/125529065/232651934-e07bf320-19b6-4d64-b38b-3731c3c3c4af.png)
 ![image](https://user-images.githubusercontent.com/125529065/232651997-118a0d64-9cc5-4e3f-b0e7-24937f6fb950.png)
 ![image](https://user-images.githubusercontent.com/125529065/232652048-131b0fb8-f5f6-4561-8260-e72742bdb6f5.png)
