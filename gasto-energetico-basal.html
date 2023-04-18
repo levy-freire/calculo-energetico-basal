@@ -1,0 +1,39 @@
+<meta charset="UTF-8">
+<title>Gasto Energético Basal</title>
+
+<script>
+
+function pularLinha() {
+	document.write("<br>");
+	document.write("<br>");
+}
+
+function mostra(frase){
+	document.write(frase);
+}
+
+function calcularGastoEnergeticoHomem (altura, peso, idade) {
+
+	return gebH = 66.5 + (13.8 * peso) + (5 * altura) - (6.8 * idade);
+
+} 
+
+function calcularGastoEnergeticoMulher(altura, peso, idade) {
+		return gebM = 655.1 + (9.5 * peso) + (1.8 * altura) - (4.7 * idade);
+}
+
+var nome = prompt("Qual seu nome?");
+var alturaInformada = prompt("informe sua altura em centimetros, " + nome);
+var pesoInformado = prompt("informe seu peso, " + nome);
+var idadeInformada = prompt("Quantos anos você tem? " + nome);
+var genero = parseInt(prompt("1 para Homem, ou 2 para mulher"));
+
+if( genero === 2) {
+var gebM = calcularGastoEnergeticoMulher(alturaInformada, pesoInformado, idadeInformada);
+mostra(" Seu gasto energético basal é " + gebM + " calorias"); }
+ else { 
+	var gebH = calcularGastoEnergeticoHomem(alturaInformada, pesoInformado, idadeInformada);
+mostra(" Seu gasto energético basal é " + gebH + " calorias");
+}
+
+</script>
